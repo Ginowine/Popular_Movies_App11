@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:key="@string/pref_sort_order_key"
+        android:title="@string/pref_sort_order_label"
+        android:defaultValue="@string/pref_sort_order_default"
+        android:entries="@array/sort_order_options"
+        android:entryValues="@array/sort_order_values"
+        />
+
+</PreferenceScreen>
